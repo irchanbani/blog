@@ -1,0 +1,52 @@
+baseURL = "https://irchanbani.github.io/"
+languageCode = "en-us"
+title = "Data Journey"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "Irchan Bani Hasym - All rights reserved"
+enableEmoji = true
+publishDir = "public"
+disqusShortname = "irchanbani"
+googleAnalytics = "UA-144287507-1"
+
+[params]
+  logo = "/images/logo.png"
+  # description ="the clean blog!"
+  #mailchimp = "you can provide a mailchimp-link here"
+
+[params.author]
+  name = "Irchan Bani"
+  thumbnail = "/images/author.jpeg"
+  description = "Creator of this blog."
+
+[params.index]
+  picture = "/images/author.jpeg"
+  title = "Irchan Bani"
+  subtitle = "Data Enthusiast"
+  mdtext = '''
+  I am a Data Science Engineer [Kurio](https://kurio.id), that happen to be interested in Data Engineering.\
+  In this site, you'll find a mix of data science and data engineering stuff.\
+  Fyi, I am a Pythonista, so i think there will be no post about R language :smirk:.\
+
+  Talk professional things or just want to grow your networks, reach out to me at LinkedIn [Irchan Bani Hasym](https://www.linkedin.com/in/irchanbani/)
+  '''
+  alertbar = false
+
+[params.social]
+  github = "irchanbani"
+  linkedin = "irchanbani"
+  medium = "irchanbani"
+  twitter = "irchanbani"
+  instagram = "irchanhas"
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "/"
